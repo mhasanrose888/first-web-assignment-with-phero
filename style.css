@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.urple-hilight{
+    color: purple;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    height: 800px;
+    padding-bottom: 150px;
+}
+
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.dream-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 700px;
+    padding-bottom: 150px;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+
+}
+.latest-work-area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80% ;
+    height: 500px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+    
+}
+.quater-width{ 
+    width: 25%;
+   float: left;
+   margin-left: 5%;
+   padding-left: 2%;
+
+}
+#latest-text{
+    text-align: center;
+    padding-bottom: 50px;
+    color: royalblue;
+}
+.client-content{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 90%;
+    height: 500px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+#client-say{
+    text-align: center;
+    padding: 20px;
+  
+}
+#link-masaage a{
+    text-align: center;
+    text-decoration: none;
+    background-image:linear-gradient(45deg, #14c2e0, blue);
+    background-position: center;
+    margin-left: 32%;
+    padding: 40px 80px;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+
+}
+#m-leave{
+    font-size: 10px;
+    text-align: center;
+}
+
+.field{
+    height: 800px;
+    width: 1200px;
+} 
+.bat{
+    transition: transfrom .2s ease-in-out;
+} 
+.bat:hover{
+    transform: rotate(-60deg);
+    transform-origin: 100% 0%;
+}
+.ball{
+    
+    position: relative;
+    left: 630px;
+    transition: transform 2s ease-in-out 0.3s;
+    
+}
+.b{
+    width: 60px;
+    height: 60px;
+}
+
+.field:hover .ball{
+    transform: translate(950px, -200px)
+}
+.caught{
+    position: relative;
+    left: 1600px;
+    top: -350px;
+}
+.c{
+    height: 300px;
+    
+}
+
+footer p{
+    text-align: center;
+    
+}
