@@ -18,6 +18,10 @@ h2{
     margin-left: 5%;
     padding-left: 2%;
 }
+
+a{
+	text-decoration:none;
+}
 .half-width img{
     width: 100%;
 }
@@ -26,6 +30,8 @@ h2{
     background-repeat: no-repeat;
     height: 800px;
     padding-bottom: 150px;
+	width:100%;
+	background-position:center;
 }
 
     
@@ -88,18 +94,21 @@ h2{
     padding: 20px;
   
 }
-#link-masaage a{
-    text-align: center;
-    text-decoration: none;
+#link-masaage{   
+	width: 411px;
+    height: 107px;
     background-image:linear-gradient(45deg, #14c2e0, blue);
-    background-position: center;
-    margin-left: 32%;
-    padding: 40px 80px;
-    border-radius: 10px;
-    color: white;
-    font-size: 30px;
-
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	color:white;
+	
 }
+#link-masaage p{
+	padding-top:20px;
+}
+
 #m-leave{
     font-size: 10px;
     text-align: center;
@@ -145,3 +154,37 @@ footer p{
     text-align: center;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
