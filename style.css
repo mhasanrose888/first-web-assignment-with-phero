@@ -33,17 +33,13 @@ a{
 	width:100%;
 	background-position:center;
 }
-
-    
-}
 .link-button{
     text-decoration: none;
-    background-image:linear-gradient(45deg, lightSalmon, tomato);
+    background-image:linear-gradient(45deg, #12dfce, rgb(10, 13, 216));
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
-
 }
 .dream-area{
     background-image: url("images/biography-bg.png");
@@ -95,8 +91,8 @@ a{
   
 }
 #link-masaage{   
-	width: 411px;
-    height: 107px;
+	width: 420px;
+    height: 110px;
     background-image:linear-gradient(45deg, #14c2e0, blue);
 	text-align:center;
 	margin-left:auto;
@@ -105,51 +101,14 @@ a{
 	color:white;
 	
 }
+
 #link-masaage p{
-	padding-top:20px;
+    padding-top:20px;
+    color: white;
 }
-
-#m-leave{
-    font-size: 10px;
-    text-align: center;
+#link-masaage h4{
+    color: white;
 }
-
-.field{
-    height: 800px;
-    width: 1200px;
-} 
-.bat{
-    transition: transfrom .2s ease-in-out;
-} 
-.bat:hover{
-    transform: rotate(-60deg);
-    transform-origin: 100% 0%;
-}
-.ball{
-    
-    position: relative;
-    left: 630px;
-    transition: transform 2s ease-in-out 0.3s;
-    
-}
-.b{
-    width: 60px;
-    height: 60px;
-}
-
-.field:hover .ball{
-    transform: translate(950px, -200px)
-}
-.caught{
-    position: relative;
-    left: 1600px;
-    top: -350px;
-}
-.c{
-    height: 300px;
-    
-}
-
 footer p{
     text-align: center;
     
